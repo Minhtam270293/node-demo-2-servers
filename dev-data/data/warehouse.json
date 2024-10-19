@@ -1,0 +1,20 @@
+{
+  "1": {
+    "name": "VF3",
+    "quantity": 100
+  },
+  "2": {
+    "name": "VF8",
+    "quantity": 50
+  },
+  "3": {
+    "id": 3,
+    "name": "Camry",
+    "quantity": 225
+  },
+  "4": {
+    "id": 22,
+    "name": "Accent",
+    "quantity": 19
+  }
+}
