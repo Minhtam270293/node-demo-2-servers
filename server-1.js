@@ -21,7 +21,7 @@ const readWarehouseData = () => {
 };
 
 const writeWarehouseData = (data) => {
-  fs.writeFileSync(warehousePath, JSON.stringify(data, null, 2), "utf-8");
+  fs.writeFile(warehousePath, JSON.stringify(data, null, 2), "utf-8");
 };
 
 // 2) ROUTE HANDLERS
