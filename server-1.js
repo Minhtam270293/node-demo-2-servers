@@ -6,6 +6,7 @@ const port = 8081;
 
 // 1) MIDDLEWARE
 app.use(express.json());
+console.log("Hello from middleware");
 
 const warehousePath = path.join(
   __dirname,
